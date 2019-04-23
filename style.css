@@ -1,0 +1,45 @@
+/*html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }*/
+  
+  body {
+    width: 90%;
+    background-color: #cce6ff;
+    margin: 7% 15% 7% 12%;
+    text-align: justify;
+  }
+
+p {
+    font: 16px Serif;
+    color: #600b7f;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+a {
+    font: bold 18px Verdana;
+    color: #1c4b96;
+    word-spacing: 5px;
+}
+
+a:hover {
+    color: #3fcc10;
+}
+
+a:visited {
+    color: #e8192e;
+}
+
+blockquote {
+    width: 50%;
+    margin-right: 30%;
+    margin-left: 20%;
+    font-size: 160%;
+    background-color: #ebebe0;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    padding: 80px 30px 80px 30px;
+    text-align: justify;
+}
