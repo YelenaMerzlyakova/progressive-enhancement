@@ -6,13 +6,23 @@
   
   body {
     width: 90%;
-    background-color:#cce6ff;
-    background-image: url("water.jpg");
+    background-image: url("water.jpg"), linear-gradient(to right, rgba(171,212,250), rgba(38,140,243));
     background-repeat: no-repeat;
     background-position: bottom right;
+    /*background-size: cover;*/
     margin: 7% 15% 7% 5%;
     text-align: justify;
   }
+
+header > h1 {
+    background-color: yellow;
+}
+
+.float-image {
+    float: left;
+    margin: 0 200px 200px 0;
+}
+
 
 p {
     font: 16px Serif;
@@ -40,6 +50,7 @@ blockquote {
     margin-right: auto;
     margin-left: auto;
     font-size: 160%;
+    font-style: italic;
     background-color: #ebebe0;
     border-left: 3px solid;
     padding: 80px 30px 80px 30px;
