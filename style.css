@@ -6,8 +6,11 @@
   
   body {
     width: 90%;
-    background-color: #cce6ff;
-    margin: 7% 15% 7% 12%;
+    background-color:#cce6ff;
+    background-image: url("water.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 7% 15% 7% 5%;
     text-align: justify;
   }
 
@@ -34,12 +37,11 @@ a:visited {
 
 blockquote {
     width: 50%;
-    margin-right: 30%;
-    margin-left: 20%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 160%;
     background-color: #ebebe0;
     border-left: 3px solid;
-    border-right: 3px solid;
     padding: 80px 30px 80px 30px;
     text-align: justify;
 }
