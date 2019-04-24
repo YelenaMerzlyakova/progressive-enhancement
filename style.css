@@ -12,6 +12,7 @@
     /*background-size: cover;*/
     margin: 7% 15% 7% 5%;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
   }
 
 header > h1 {
@@ -20,9 +21,14 @@ header > h1 {
 
 .float-image {
     float: left;
-    margin: 200px 50px 200px 0;
+    margin: 0 100px 100px 0;
+    width: 300px;
 }
 
+table, th, td{
+    border: 1px solid black;
+    width : 500px;
+}
 
 p {
     font: 16px Serif;
@@ -90,4 +96,16 @@ q{
 
 .coloured-row {
     background-color: grey;
+}
+
+.notification{ 
+    position:fixed;
+    bottom: 2%;
+    right: 2%;
+    background: pink;
+    padding:.5rem 1rem;
+    border:3px solid black;
+    width:150px;
+    font-weight:bold;
+    color: black;
 }
