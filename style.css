@@ -20,7 +20,7 @@ header > h1 {
 
 .float-image {
     float: left;
-    margin: 0 200px 200px 0;
+    margin: 200px 50px 200px 0;
 }
 
 
@@ -50,9 +50,44 @@ blockquote {
     margin-right: auto;
     margin-left: auto;
     font-size: 160%;
-    font-style: italic;
     background-color: #ebebe0;
     border-left: 3px solid;
     padding: 80px 30px 80px 30px;
     text-align: justify;
+}
+
+q{
+    font-style: italic;
+}
+
+.farmer {
+    font-style: italic;
+}
+
+.farmer:before {
+    color: rgb(255, 0, 221);
+    border-left: 5px solid rgb(255, 0, 221);
+}
+
+.villagers {
+    font-style: italic;
+}
+
+.villagers:before {
+    color: rgb(28, 156, 150);
+    border-left: 5px solid green;
+}
+
+.good {
+    color:green;
+    text-transform: capitalize;
+}
+
+.bad {
+    color:red;
+    text-transform: capitalize;
+}
+
+.coloured-row {
+    background-color: grey;
 }
