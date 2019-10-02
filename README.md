@@ -2,6 +2,8 @@
 
 Learning more about **html**, **semantics** and **SEO**. Playing around with fonts and positioning.
 
+**[Click me!](https://yelenamerzlyakova.github.io/progressive-enhancement/)**
+
 ## 1. HTML is about semantics
 
 What is "**semantics**" ?
