@@ -115,7 +115,6 @@ Back to your html version of the Chinese farmer :
  
 All tags are rendered visually as a "block". This is called the [box model](https://www.w3schools.com/css/css_boxmodel.asp).  Each block includes margin, padding border properties.
 
-![The bloc](Images/css-block.png)  
 
 You can control the dimensions and spacing of this block:   
 
